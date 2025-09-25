@@ -3,7 +3,7 @@
 ## how to init
 ```shell
 npm install
-npm start
+npm run dev
 ```
 
 ## 브랜치 전략
