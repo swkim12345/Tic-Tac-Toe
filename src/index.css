@@ -66,3 +66,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.square {
+  width: 60px; /* 가로 크기 */
+  height: 60px; /* 세로 크기 */
+  font-size: 24px; /* 글자 크기 */
+  text-align: center; /* 글자 가운데 정렬 */
+}
