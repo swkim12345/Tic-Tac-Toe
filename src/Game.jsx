@@ -17,8 +17,8 @@ export default function Board() {
 
   function handleClick(i) {
     const nextSquares = squares.slice();
-    if (nextSquares[i] == "") nextSquares[i] = "X";
-    else nextSquares[i] = "";
+    if (nextSquares[i] == null) nextSquares[i] = "X";
+    else nextSquares[i] = null;
     setSquares(nextSquares);
   }
   return (
